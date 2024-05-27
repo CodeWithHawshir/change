@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+          button{
+            color: white;
+            background-color: darkgrey;
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            margin: 4px;
+            cursor: pointer;
+        }
+
+        button:active{
+            background-color: rgb(119, 119, 119);
+
+            
+        }
+    </style>
+</head>
+<body>
+    <img src="anas.jpg" id="change">
+
+    <button onclick="ulta()">Ulta</button>
+    <button onclick="sidha()">Sidha</button>
+
+    <script>
+        var img = document.getElementById("change")
+
+        function ulta(change) {
+            img.src = 'sana.jpg'
+        } 
+        
+        function sidha(change) {
+            img.src = 'anas.jpg'
+        }
+
+
+     
+    </script>
+</body>
+</html>
